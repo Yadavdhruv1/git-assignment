@@ -1,0 +1,26 @@
+git config --global user.name / user.email - Sets the name and email attached to my commits.
+cd ~/Desktop - Moves into the Desktop folder where the project is created.
+mkdir git-assignment - Creates the project folder.
+cd git-assignment - Moves into the project folder.
+echo "text" > file - Creates a file with the given content.
+echo "text" >> file - Appends text to an existing file.
+ls / ls -a - Lists files (ls -a also shows hidden files).
+clear - Clears the terminal screen.
+git init -b main - Initializes a Git repository with main as the default branch.
+git status - Shows the current branch and tracked, untracked and modified files.
+git add . - Stages all changes for the next commit.
+git add <file> - Stages one specific file.
+git commit -m "msg" - Saves the staged changes as a commit with a message.
+git branch feature - Creates a new branch named feature.
+git branch - Lists branches and marks the current one with *.
+git switch feature - Switches to the feature branch.
+git switch main - Switches back to the main branch.
+git merge feature --no-ff -m "msg" - Merges feature into main and always creates a merge commit.
+git log --oneline --graph --all - Shows compact history of all branches as a graph.
+printf "*.log\ntemp/\n" > .gitignore - Creates .gitignore that ignores .log files and the temp folder.
+cat <file> - Prints the contents of a file.
+git reset --hard HEAD~1 - Undoes the last commit and discards its changes.
+git remote add origin <url> - Links the local repository to the GitHub repository.
+git remote -v - Shows the linked remote URLs.
+git push -u origin main - Pushes main to GitHub and sets it as the upstream branch.
+git push origin feature - Pushes the feature branch to GitHub.
